@@ -3,3 +3,6 @@ profiles/
 output/
 
 .DS_Store
+
+# AI-DLC development workflow rules (local copy, see README)
+aidlc-workflows/
