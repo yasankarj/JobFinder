@@ -19,7 +19,7 @@ Arguments: `$ARGUMENTS`
 - Otherwise use the most recently modified CV (PDF, DOCX or Markdown) in `profiles/`.
 - If the arguments name a target role, review against that role. Otherwise infer the
   most likely target role from the CV and say which one you assumed.
-- If `profiles/preferences.md` exists, read it for the target roles and seniority.
+- If `config/preferences.md` exists, read it for the target roles and seniority.
 
 Read the whole CV before judging any part of it.
 

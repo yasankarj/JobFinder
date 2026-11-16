@@ -21,7 +21,7 @@ Arguments: `$ARGUMENTS`
 
 1. Confirm there is a CV in `profiles/` (or one named in the arguments). If there is
    none, stop and ask the user to add one.
-2. If `profiles/preferences.md` is still the unedited template, mention once that
+2. If `config/preferences.md` is still the unedited template, mention once that
    filling it in will sharpen the search, then carry on.
 3. Invoke `cv-reviewer` with the Skill tool, passing the CV path if one was given.
 4. Invoke `skill-extractor` the same way.

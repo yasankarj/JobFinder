@@ -18,7 +18,7 @@ Arguments (extra criteria for this run, they override stored preferences): `$ARG
 
 1. Read `output/skills.json`. If it does not exist, stop and tell the user to run
    `/skill-extractor` first.
-2. Read `profiles/preferences.md` if it exists.
+2. Read `config/preferences.md` if it exists.
 3. Settle the search criteria: target roles, locations, work mode, seniority and any
    exclusions. Where a criterion is not stated anywhere, use the candidate's location
    and seniority from `skills.json` and say so in the report.

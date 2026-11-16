@@ -18,7 +18,7 @@ Arguments: `$ARGUMENTS`
 
 - If the arguments name a file, use it. Otherwise use the most recently modified CV
   (PDF, DOCX or Markdown) in `profiles/`.
-- If `profiles/preferences.md` exists, read it. Stated preferences override anything
+- If `config/preferences.md` exists, read it. Stated preferences override anything
   you would infer from the CV (target roles, locations, seniority).
 
 ## How to extract
@@ -77,7 +77,7 @@ Create `output/` if needed and write valid JSON to `output/skills.json`:
   "preferences": {
     "locations": [""],
     "work_mode": "remote | hybrid | onsite | any",
-    "notes": "anything else from profiles/preferences.md"
+    "notes": "anything else from config/preferences.md"
   }
 }
 ```
