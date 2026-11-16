@@ -1,0 +1,5 @@
+# Personal data: CVs and generated results
+profiles/
+output/
+
+.DS_Store
